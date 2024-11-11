@@ -22,7 +22,7 @@ Upload the pre-collected dataset, containing questions and answers about the uni
 `csv_file_path = '/content/chatbot-combined.csv'
 df = pd.read_csv(csv_file_path)`
 ## Setup for Grok API
-- Sign up or log in to Grok's Console.
+- Sign up or log in to [Grok's Console](https://docs.x.ai/docs).
 - Create a new API key and copy it.
 - Paste the generated key in the code where specified:
 - `grok_api_key = "YOUR_API_KEY"`
@@ -44,7 +44,7 @@ Example interaction:
 `Enter your query here: What is Sitare University?
 Llama Answer: Sitare University provides high-quality Computer Science education to students from underprivileged backgrounds, covering all expenses.`
 
-Key Functions
+## Key Functions
 - `get_top_answer(query, model, faiss_index, df, top_k=3)`: Retrieves top matching answers for the user query.
 - `GroqChat(question)`: Queries the Llama model through the Grok API to generate an answer based on retrieved content.
 - `generate_answer_from_docs(query, retrieved_docs)`: Compiles the final answer using both retrieved documents and generated content from the Llama model.
