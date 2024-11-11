@@ -41,7 +41,7 @@ df = pd.read_csv(csv_file_path)`
 - Start Asking Questions: Run the chatbot, which will prompt you to enter questions. Type your question, and it will return an answer generated based on the relevant retrieved documents.
 - Exit: Type "exit" to stop the chatbot.
 Example interaction:
-`Enter your query here: What is Sitare University?
+- `Enter your query here: What is Sitare University?
 Llama Answer: Sitare University provides high-quality Computer Science education to students from underprivileged backgrounds, covering all expenses.`
 
 ## Key Functions
